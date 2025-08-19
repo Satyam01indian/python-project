@@ -35,3 +35,6 @@ st_button.place(x=150,y=400,height = 50,width = 200)
 
 
 st.mainloop()
+
+
+
