@@ -27,9 +27,9 @@ class BrowserTab(QWebEngineView):
 # --- Main Browser Window ---
 class BrowserWindow(QMainWindow):
     # Configuration for default search and home page
-    DEFAULT_HOME_URL = QUrl("https://yahoo.com/")
+    DEFAULT_HOME_URL = QUrl("https://bing.com/")
     # Placeholder {0} will be replaced by the search query
-    SEARCH_URL_TEMPLATE = "https://yahoo.com/?q={0}"
+    SEARCH_URL_TEMPLATE = "https://bing.com/?q={0}"
 
     def __init__(self):
         super().__init__()
